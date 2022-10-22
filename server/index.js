@@ -18,7 +18,7 @@ app.use(cors());
 app.use('/posts', postRoutes); //add prefix "/posts to all routes under posts"
 app.use("/user", userRouter);
 
-// const CONNECTION_URL = 'mongodb+srv://aditya12sc:pass123@cluster0.mxbinev.mongodb.net/?retryWrites=true&w=majority';
+
 const PORT = process.env.PORT|| 5000;
 
 mongoose.connect(process.env.CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
