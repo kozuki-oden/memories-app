@@ -2,7 +2,7 @@ import axios from 'axios';
 
 //backed routes//API ENDPOINTS
 
-const API = axios.create({ baseURL: 'http://localhost:5001' });
+const API = axios.create({ baseURL: 'https://memories-app-server-drab.vercel.app' });
 
 
 //function happens on each one of our request
