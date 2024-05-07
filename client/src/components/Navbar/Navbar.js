@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 import decode from "jwt-decode";
 
 import memoriesLogo from '../../images/memoriesLogo.png';
-import memoriesText from '../../images/memoriesText.png';
+import memoriesText from '../../images/Like_My_Story.png';
 
 import * as actionType from "../../constants/actionTypes";
 
