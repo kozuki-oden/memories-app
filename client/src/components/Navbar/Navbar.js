@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 import decode from "jwt-decode";
 
 import memoriesLogo from '../../images/memoriesLogo.png';
-import memoriesText from '../../images/memoriesText.png';
+import memoriesText from '../../images/Like_My_Story.png';
 
 import * as actionType from "../../constants/actionTypes";
 
@@ -50,7 +50,7 @@ const Navbar = () => {
   return (
     <AppBar className={classes.appBar} position="static" color="inherit">
       <Link to="/" className={classes.brandContainer}>
-        <img component={Link} to="/" src={memoriesText} alt="icon" height="45px" />
+        <img component={Link} to="/" src={memoriesText} alt="icon" height="90px" />
         <img className={classes.image} src={memoriesLogo} alt="icon" height="40px" />
       </Link>
       {/* <div className={classes.brandContainer}>
